@@ -3,7 +3,9 @@
     {
       "src": "/(.*)",
       "dest": "https://reto.dorik.io/$1"
-    }
+    },
+    "src": "/",
+      "dest": "/billa"
   ]
 
 }
