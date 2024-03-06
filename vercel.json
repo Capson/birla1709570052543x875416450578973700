@@ -4,5 +4,12 @@
       "src": "/(.*)",
       "dest": "https://reto.dorik.io/$1"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/billa",
+      "permanent": true
+    }
   ]
 }
