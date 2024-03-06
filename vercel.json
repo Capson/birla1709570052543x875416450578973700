@@ -2,14 +2,14 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/register",
+      "destination": "/",
       "permanent": true
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://app.cloozo.com/$1"
+      "destination": "https://reto.dorik.io/$1"
     }
   ]
 }
