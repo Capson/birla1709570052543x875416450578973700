@@ -1,8 +1,15 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/register",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
-      "source": "/register",
-      "destination": "https://app.cloozo.com/register/$1"
+      "source": "/(/.*)",
+      "destination": "https://app.cloozo.com/$1"
     }
   ]
 }
