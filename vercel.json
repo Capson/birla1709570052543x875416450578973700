@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://app.cloozo.com/$1"
+      "destination": "https://app.cloozo.com/register/$1"
     }
   ]
 }
