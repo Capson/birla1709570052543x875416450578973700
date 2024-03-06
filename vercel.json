@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/",
+      "source": "/register",
       "destination": "https://app.cloozo.com/register/$1"
     }
   ]
