@@ -5,13 +5,11 @@
       "destination": "/billa",
       "permanent": true
     }
-    // Additional redirect rules can be added here
   ],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://reto.dorik.io/$1"
     }
-    // Additional rewrite rules can be added here
   ]
 }
